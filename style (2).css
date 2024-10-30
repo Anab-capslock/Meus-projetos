@@ -3,13 +3,13 @@
 
 /* Definindo as cores principais como variáveis CSS */
 :root {
-    --white: #a59c9c;
-    --dark1: #423f3f; /* Cor de fundo principal */
-    --dark2: #000000; /* Cor de seções */
-    --dark3: #a125d2; /* Cor clara (pode alterar para contraste) */
-    --dark4: #751094; /* Alternativa de cor clara */
-    --dark5: #472767; /* Cor de destaque */
-    --cyan1: #210c3e; /* Outra cor de destaque */
+    --white: #fff;
+    --dark1: #aa58e8; /* Cor de fundo principal */
+    --dark2: #8220ba; /* Cor de seções */
+    --dark3: #020202; /* Cor clara (pode alterar para contraste) */
+    --dark4: #ebd1d1; /* Alternativa de cor clara */
+    --dark5: #430266; /* Cor de destaque */
+    --cyan1: hsl(277, 86%, 23%); /* Outra cor de destaque */
 }
 
 /* Resetando margens e preenchimentos padrão */
@@ -20,7 +20,7 @@
 
 /* Personalizando a barra de rolagem */
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -51,14 +51,14 @@ header {
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.8rem;
-    background-color: #000000;
+    background-color: #2f2f46;
     min-height: 50px;
 }
 
 /* Imagem do logo no cabeçalho */
 .img-logo {
     height: 100%;
-    max-height: 100px;
+    max-height: 60px;
 }
 
 /* Navegação no cabeçalho */
@@ -85,7 +85,7 @@ nav {
 /* Botões de ação no cabeçalho */
 .box-btn-actions {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
 }
 
 /* Estilo comum para botões e links */
@@ -142,8 +142,8 @@ section {
 .first-section > div {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    min-width: 400px;
+    gap: 1rem;
+    min-width: 300px;
 }
 
 /* Título principal */
@@ -170,8 +170,8 @@ strong {
 
 /* Imagem de perfil */
 .img-profile {
-    width: 500px; /* Defina um tamanho específico */
-    height: 500px; /* Mesma altura para manter o círculo perfeito */
+    width: 5px; /* Defina um tamanho específico */
+    height: 5px; /* Mesma altura para manter o círculo perfeito */
     border-radius: 50%; /* 50% garantirá o formato circular */
     object-fit: cover; /* Garante que a imagem preencha o círculo corretamente */
 }
@@ -259,8 +259,8 @@ strong {
 }
 
 /* Sombra nas imagens */
-:is(.img-profile, .img-who-am-i) { 
-    box-shadow: 5px 5px 5px 5px var(--cyan1);
+:is(.img-profile, .img-who-am-i) {
+    box-shadow: 1px 1px 1px 1px var(--cyan1);
 }
 
 /* Estilo do rodapé */
@@ -275,6 +275,6 @@ footer {
 footer > div {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
