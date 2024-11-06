@@ -3,13 +3,13 @@
 
 /* Definindo as cores principais como variáveis CSS */
 :root {
-    --white: #a59c9c;
+    --white: #d3d3d3;
     --dark1: #423f3f; /* Cor de fundo principal */
-    --dark2: #000000; /* Cor de seções */
-    --dark3: #a125d2; /* Cor clara (pode alterar para contraste) */
-    --dark4: #751094; /* Alternativa de cor clara */
-    --dark5: #472767; /* Cor de destaque */
-    --cyan1: #210c3e; /* Outra cor de destaque */
+    --dark2: #301d1d; /* Cor de seções */
+    --dark3: #4b0c64; /* Cor clara (pode alterar para contraste) */
+    --dark4: #5a2b68; /* Alternativa de cor clara */
+    --dark5: rgb(70, 36, 105); /* Cor de destaque */
+    --cyan1: #351b5a; /* Outra cor de destaque */
 }
 
 /* Resetando margens e preenchimentos padrão */
@@ -216,7 +216,7 @@ strong {
 .third-section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .third-section > div {
@@ -228,8 +228,8 @@ strong {
 }
 
 .third-section > div img {
-    width: 250px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 50px;
 }
 
 /* Texto na terceira seção */
